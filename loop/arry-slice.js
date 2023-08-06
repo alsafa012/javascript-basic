@@ -1,0 +1,10 @@
+const friends = [12,15,69,25,36,189,135,19];
+const partial = friends.slice(2,5);
+console.log(partial);
+console.log("array no changes",friends);
+const remove = friends.splice(2,5);
+console.log({remove});
+console.log("array changed",friends);
+const addInRemovedPlace = friends.splice(1,2,55,88,22,99,1010);
+console.log({addInRemovedPlace});
+console.log("array changed",friends);

@@ -25,7 +25,7 @@ var lumba =  getGrade(lumba);
 var zisan =  getGrade(zisan);
 var rockey =  getGrade(rockey);
 
-console.log('myTotalscore: ', myself);
+                console.log('myTotalscore: ', myself);
 console.log(dot);
 console.log(lumba);
 console.log(zisan);
